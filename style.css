@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 100px;
+    margin-left: 450px;
+    background-color: rgb(68, 18, 54);
+}
+
+.container {
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #a696aa;
+}
+
+.nomedacor {
+    color: rgb(2, 43, 43);
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#button {
+    width: 100px;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #06042c;
+    color: aliceblue;
+}
+
+#button:hover {
+    background-color: #1e1870;
+}
+
+#reset {
+    width: 100px;
+    padding: 15px;
+    margin-top: 20px;    
+    margin-left: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #06042c;
+    color: aliceblue;
+}
+
+#reset:hover {
+    background-color: #1e1870;
+}
+
+.cores {
+    display: flex;
+}
+
+.cor {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    border: 1px solid #06042c;
+    border-radius: 50%;
+}
+.rosa {
+    background-color: rgb(214, 25, 151);
+}
+.vermelho {
+    background-color: #fe4418;
+}
+.verde {
+    background-color: green;
+}
+.amarelo {
+    background-color: yellow;
+}
+
+footer {
+    color: white;
+    margin-top: 30px;
+    margin-left: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
